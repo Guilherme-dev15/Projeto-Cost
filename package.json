@@ -1,7 +1,7 @@
 {
   "name": "costs",
   "version": "0.1.0",
-  "homepage": "https://{guilherme-dev15}.github.io/{Projeto-Costs/}",
+  "homepage": "https://guilherme-dev15.github.io/Projeto-Costs/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
