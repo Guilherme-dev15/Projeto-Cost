@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom"
 import Container from '../layout/Container'
 import styles from './Projects.module.css'
 import LinkButton from "../layout/LinkButton"
-import ProjectCard from "../projects/ProjectsCard"
+import ProjectCard from "../project/ProjectsCard"
 import { useState, useEffect } from "react"
 import Loading from '../layout/Loading'
 

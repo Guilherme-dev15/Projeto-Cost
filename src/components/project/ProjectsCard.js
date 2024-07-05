@@ -6,7 +6,6 @@ function ProjectCard({ id, name, budget, category, handleRemove }) {
         e.preventDefault()
         handleRemove(id)
     }
-    
     return (
         <div className={styles.project_card}>
             <h4>{name}</h4>

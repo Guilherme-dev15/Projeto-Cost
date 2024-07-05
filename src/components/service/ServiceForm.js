@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Input from '../form/Input'
 import SubmitButton from '../form/SubmitButton'
 
-import styles from '../projects/ProjectCard.module.css'
+import styles from '../project/ProjectCard.module.css'
 function ServiceForm({ handleSubmit, btnText, projectData }) {
     const [service, setService] = useState([])
     function submit(e) {
