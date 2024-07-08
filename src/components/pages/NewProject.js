@@ -8,7 +8,7 @@ function NewProject() {
         // Inicialize o custo e os serviços
         project.cost = 0;
         project.services = [];
-        fetch("http://localhost:5000/projects", {
+        fetch("https://api.jsonbin.io/b/668be34fe41b4d34e40eddff", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
