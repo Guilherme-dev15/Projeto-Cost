@@ -8,7 +8,7 @@ function NewProject() {
         // Inicialize o custo e os serviços
         project.cost = 0;
         project.services = [];
-        fetch("https://api.jsonbin.io/b/668be34fe41b4d34e40eddff", {
+        fetch("https://api.jsonbin.io/v3/b/668bec2dad19ca34f8849dfe", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',

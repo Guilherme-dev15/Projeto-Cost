@@ -9,7 +9,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
     const [categories, setCategories] = useState([])
     const [project, setProject] = useState(projectData || {})
     useEffect(() => {
-        fetch("https://api.jsonbin.io/b/668be34fe41b4d34e40eddff/categories", {
+        fetch("https://api.jsonbin.io/v3/b/668bec2dad19ca34f8849dfe/categories", {
             method: "Get",
             headers: {
                 'Content-Type': 'application/json',

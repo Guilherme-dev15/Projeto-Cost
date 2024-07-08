@@ -25,7 +25,7 @@ function Project() {
 
     useEffect(() => {
         setTimeout(() => {
-            fetch(`https://api.jsonbin.io/b/668be34fe41b4d34e40eddff/${id}`, {
+            fetch(`https://api.jsonbin.io/v3/b/668bec2dad19ca34f8849dfe${id}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ function Project() {
             return false
         }
 
-        fetch(`https://api.jsonbin.io/b/668be34fe41b4d34e40eddff/${project.id}`, {
+        fetch(`https://api.jsonbin.io/v3/b/668bec2dad19ca34f8849dfe${project.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
@@ -85,7 +85,7 @@ function Project() {
         // add service cost to project cost total
         project.cost = newCost
 
-        fetch(`https://api.jsonbin.io/b/668be34fe41b4d34e40eddff/${project.id}`, {
+        fetch(`https://api.jsonbin.io/v3/b/668bec2dad19ca34f8849dfe${project.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
@@ -109,7 +109,7 @@ function Project() {
         projectUpdated.services = servicesUpdated
         projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
 
-        fetch(`https://api.jsonbin.io/b/668be34fe41b4d34e40eddff/${projectUpdated.id}`,{
+        fetch(`https://api.jsonbin.io/v3/b/668bec2dad19ca34f8849dfe${projectUpdated.id}`,{
             method: 'PATCH',
             headers: {
                 'Content-Type' : 'application/json'
