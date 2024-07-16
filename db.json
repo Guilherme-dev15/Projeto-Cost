@@ -1,24 +1,6 @@
 {
   "projects": [
     {
-      "id": "6",
-      "name": "My Project 6000",
-      "budget": "4000",
-      "category": {
-        "id": "2",
-        "name": "Development"
-      },
-      "cost": 3500,
-      "services": [
-        {
-          "id": "df1dfa1f-5d83-410c-b119-2fdd4a7b2d42",
-          "name": "Hire Davi",
-          "cost": "3500",
-          "description": "Hire the best programmer lol"
-        }
-      ]
-    },
-    {
       "id": "17",
       "name": "Amazon Website",
       "budget": "200000",
@@ -26,8 +8,15 @@
         "id": "1",
         "name": "Infrastructure"
       },
-      "cost": 0,
-      "services": []
+      "cost": 100000,
+      "services": [
+        {
+          "name": "Teste",
+          "cost": "100000",
+          "description": "Description ",
+          "id": "f1f6142f-5776-46ec-9725-b603109b37c8"
+        }
+      ]
     },
     {
       "id": "18",
@@ -57,17 +46,6 @@
           "description": "Description 1"
         }
       ]
-    },
-    {
-      "id": "7961",
-      "name": "Test",
-      "budget": "25801",
-      "category": {
-        "id": "2",
-        "name": "Development"
-      },
-      "cost": 0,
-      "services": []
     }
   ],
   "categories": [
