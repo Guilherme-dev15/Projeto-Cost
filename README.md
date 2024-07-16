@@ -53,6 +53,6 @@ O **Projeto Costs** foi desenvolvido como parte de um curso disponibilizado no y
 
 - **Nome:** Guilherme
 - **GitHub:** [Guilherme-dev15](https://github.com/Guilherme-dev15)
-- **LinkedIn:** [Seu LinkedIn](https://www.linkedin.com/in/guilherme-a-anjos/)
+- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/guilherme-a-anjos/)
 
 ---
