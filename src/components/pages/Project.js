@@ -43,7 +43,7 @@ function Project(){
         setMessage('')
       //budget validation
       if(project.budget < project.cost){
-        setMessage('O orçamento não pode ser menor que o custo do projeto!')
+        setMessage('The budget cannot be less than the project cost!')
         setType('error')
         return false
       }
@@ -60,7 +60,7 @@ function Project(){
 
         setProject(data)
         setShowProjectForm(!showProjectForm)
-        setMessage('Projeto atualizado')
+        setMessage('Project updated')
         setType('success')
       } )
       .catch((err) => console.log(err))
@@ -80,7 +80,7 @@ function Project(){
 
             //maximum value validation
             if(newCost > parseFloat(project.budget)){
-                setMessage('Orçamento ultrapassado, verifique o valor do serviço')
+                setMessage('Budget exceeded')
                 setType('error')
                 project.services.pop()
                 return false
@@ -101,7 +101,7 @@ function Project(){
             .then((data) => {
                 setServices(data.services)
                 setShowServiceForm(!showServiceForm)
-                setMessage('Serviço adicionado!')
+                setMessage('"Service added!')
                 setType('success')
             })
             .catch((err) => console.log(err))
@@ -128,7 +128,7 @@ function Project(){
                 .then((data)=>{
                     setProject(projectUpdated)
                     setServices(servicesUpdated)
-                    setMessage('Serviço removido com sucesso!')
+                    setMessage('Service successfully removed!')
 
                 })
                 .catch((err)=> console.log(err))
@@ -155,7 +155,7 @@ function Project(){
                     <div className={styles.details_container}>
                         <h1>Projeto: {project.name}</h1>
                         <button className={styles.btn} onClick={toggleProjectForm}>      
-                         { !showProjectForm ? 'Editar projeto':'Fechar'}
+                         { !showProjectForm ? 'Edit Project':'Close'}
                         </button>
                         {!showProjectForm ? (
                             <div className={styles.project_info}>
@@ -172,20 +172,20 @@ function Project(){
                             </div>
                         ) : (
                             <div className={styles.project_info}>
-                                <ProjectForm handleSubmit={editPost} btnText='Concluir edição' projectData={project}/>
+                                <ProjectForm handleSubmit={editPost} btnText='Complete editing' projectData={project}/>
                             </div>
                         )}
                     </div>
                     <div className={styles.service_form_container}>
                             <h2>Adicione um serviço:</h2>
                             <button className={styles.btn} onClick={toggleServiceForm}>      
-                         { !showServiceForm ? 'Adicionar serviço':'Fechar'}
+                         { !showServiceForm ? 'Add Service':'Close'}
                         </button>
                         <div className={styles.project_info}>
                             {showServiceForm && (
                             <ServiceForm
                             handleSubmit={createService}
-                            btnText='Adicionar Serviço'
+                            btnText='Add Service'
                             projectData={project}
                             />
 
@@ -207,7 +207,7 @@ function Project(){
                                     ))
                                    } 
                                    {
-                                    services.length === 0 && <p> Não há serviços cadastrados</p>
+                                    services.length === 0 && <p> No services registered</p>
                                    }
                     </Container>
                 </Container>
@@ -222,4 +222,3 @@ function Project(){
     )}
 
 export default Project
-//Curso React: Conclusão do curso - #37

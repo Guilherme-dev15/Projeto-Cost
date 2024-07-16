@@ -1,70 +1,70 @@
 {
   "projects": [
     {
-      "name": "meu projeto 6000",
+      "id": "6",
+      "name": "My Project 6000",
       "budget": "4000",
       "category": {
         "id": "2",
-        "name": "Desenvolvimento"
+        "name": "Development"
       },
       "cost": 3500,
       "services": [
         {
-          "name": "Contratar Davi",
+          "id": "df1dfa1f-5d83-410c-b119-2fdd4a7b2d42",
+          "name": "Hire Davi",
           "cost": "3500",
-          "description": "chamar o melhor programador kkkk",
-          "id": "df1dfa1f-5d83-410c-b119-2fdd4a7b2d42"
+          "description": "Hire the best programmer lol"
         }
-      ],
-      "id": "6"
+      ]
     },
     {
-      "name": "site da amazon",
+      "id": "17",
+      "name": "Amazon Website",
       "budget": "200000",
       "category": {
         "id": "1",
-        "name": "Infra"
+        "name": "Infrastructure"
       },
       "cost": 0,
-      "services": [],
-      "id": "17"
+      "services": []
     },
     {
-      "name": "projeto 5000",
+      "id": "18",
+      "name": "Project 5000",
       "budget": "20000",
       "category": {
         "id": "3",
         "name": "Design"
       },
       "cost": 0,
-      "services": [],
-      "id": "18"
+      "services": []
     },
     {
-      "name": "projeto 5000",
+      "id": "19",
+      "name": "Project 5000",
       "budget": "50000",
       "category": {
         "id": "1",
-        "name": "Infra"
+        "name": "Infrastructure"
       },
       "cost": 1,
       "services": [
         {
-          "name": "1",
+          "id": "39c744c5-d171-4023-abed-f60646094f8d",
+          "name": "Service 1",
           "cost": "1",
-          "description": "1",
-          "id": "39c744c5-d171-4023-abed-f60646094f8d"
+          "description": "Description 1"
         }
-      ],
-      "id": "19"
+      ]
     },
     {
       "id": "7961",
-      "name": "Teste",
+      "name": "Test",
       "budget": "25801",
       "category": {
         "id": "2",
-        "name": "Desenvolvimento"
+        "name": "Development"
       },
       "cost": 0,
       "services": []
@@ -73,11 +73,11 @@
   "categories": [
     {
       "id": "1",
-      "name": "Infra"
+      "name": "Infrastructure"
     },
     {
       "id": "2",
-      "name": "Desenvolvimento"
+      "name": "Development"
     },
     {
       "id": "3",
@@ -85,7 +85,7 @@
     },
     {
       "id": "4",
-      "name": "Planejamento"
+      "name": "Planning"
     }
   ]
 }
