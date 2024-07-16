@@ -1,9 +1,4 @@
-function Contact() {
-    return (
-        <div>
-            <h1>Contact</h1>
-        </div>
-    )
+function Contact(){
+    return <h1>Contact</h1>
 }
-
 export default Contact

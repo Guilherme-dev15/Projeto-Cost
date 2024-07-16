@@ -1,36 +1,70 @@
 {
   "projects": [
     {
-      "id": "6669",
-      "name": "Projeto 001",
-      "budget": "20000",
+      "name": "meu projeto 6000",
+      "budget": "4000",
       "category": {
         "id": "2",
-        "name": "Design"
+        "name": "Desenvolvimento"
       },
-      "cost": 15000,
+      "cost": 3500,
       "services": [
         {
-          "name": "Service 001",
-          "cost": "5000",
-          "description": "Descrição do serviço",
-          "id": "a1fe9b82-6a88-47e8-b894-e500a1dc0078"
-        },
-        {
-          "name": "Service 002",
-          "cost": "10000",
-          "description": "Descrição do serviço",
-          "id": "f9fdd38f-8e80-45c4-8d52-5b8009a52ca0"
+          "name": "Contratar Davi",
+          "cost": "3500",
+          "description": "chamar o melhor programador kkkk",
+          "id": "df1dfa1f-5d83-410c-b119-2fdd4a7b2d42"
         }
-      ]
+      ],
+      "id": "6"
     },
     {
-      "id": "7811",
-      "name": "Projeto 002",
-      "budget": "5000",
+      "name": "site da amazon",
+      "budget": "200000",
       "category": {
-        "id": "6",
-        "name": "Testing"
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "17"
+    },
+    {
+      "name": "projeto 5000",
+      "budget": "20000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "18"
+    },
+    {
+      "name": "projeto 5000",
+      "budget": "50000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 1,
+      "services": [
+        {
+          "name": "1",
+          "cost": "1",
+          "description": "1",
+          "id": "39c744c5-d171-4023-abed-f60646094f8d"
+        }
+      ],
+      "id": "19"
+    },
+    {
+      "id": "7961",
+      "name": "Teste",
+      "budget": "25801",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": []
@@ -39,27 +73,19 @@
   "categories": [
     {
       "id": "1",
-      "name": "Development"
+      "name": "Infra"
     },
     {
       "id": "2",
-      "name": "Design"
+      "name": "Desenvolvimento"
     },
     {
       "id": "3",
-      "name": "QA"
+      "name": "Design"
     },
     {
       "id": "4",
-      "name": "Management"
-    },
-    {
-      "id": "6",
-      "name": "Testing"
-    },
-    {
-      "id": "5",
-      "name": "Documentation"
+      "name": "Planejamento"
     }
   ]
 }

@@ -4,26 +4,18 @@
     background-color: #222;
     padding: 1em;
 }
-
 .list{
     display: flex;
     list-style: none;
     align-items: center;
 }
-
 .item{
     margin-right: 1em;
 }
-
 .item a{
-    color: #FFF;
+    color: #fff;
     text-decoration: none;
-    transition: 750ms;
 }
-
 .item a:hover{
-    cursor: pointer;
-    color: #FFBB33;
-    transition: 750ms;
+    color: #ffbb33;
 }
-
